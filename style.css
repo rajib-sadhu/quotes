@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;padding: 0;box-sizing: border-box;font-family: 'Dancing Script', cursive;
+}
+html{
+    font-size: 62.5%;
+}
+
+
+
+.main_div{
+    height: 100vh;
+    width: 100vw;
+    background-color: #334756;
+    display: grid;
+    place-items: center;
+}
+
+.center_div{
+    width: 60rem;
+    height: 45rem;
+    background-color: #F0A500;
+    box-shadow: 8px 17px 45px -11px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 8px 17px 45px -11px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 8px 17px 45px -11px rgba(0,0,0,0.75) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    width: 50rem;
+    height: 32rem;
+    background-color: #CEE5D0;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.25s linear;
+}
+.quote #next{
+    width: 100%;
+    height: 5rem;
+    outline: none;
+    background-color: #334756;
+    font-family: cursive;
+    color: #CEE5D0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.25s linear;
+    
+}
+
+.quote #next:hover{
+    background-color: #000000;
+    color: #CEE5D0;
+}
+
+.quote a{
+
+    width: 13rem;
+    height: 13rem;
+    position: absolute;
+    background-color: 79B4B7;
+    transform: rotate(45deg);
+    top: -7rem;
+    right: -7rem;
+    box-shadow: 34px 20px 115px -42px rgba(0,0,0,0.49) inset;
+    -webkit-box-shadow: 34px 20px 115px -42px rgba(0,0,0,0.49) inset;
+    -moz-box-shadow: 34px 20px 115px -42px rgba(0,0,0,0.49) inset;
+    font-size: 2.2rem;
+    transition: all 0.2s linear;
+
+}
+
+
+.quote a:hover{
+    background-color: #334756;
+    font-size: 2.6rem;
+}
+
+.quote #twitter{
+    position: absolute;
+    bottom: 1rem;
+    left: 5.5rem;
+    transform: rotate(-45deg);
+    color: 	#1DA1F2;
+}
+
+.quote img{
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    top: 5rem;
+    left: 5rem;
+}
+
+.quote #author{
+    position: absolute;
+    font-size: 2rem;
+    right: 6rem;
+    bottom: 8rem;
+}
+
+.quote_main{
+    
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    place-items: center;
+}
+
+
+
+.quote_main p{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:700px) {
+    
+    html{
+        font-size: 40%;
+    }
+
+}
+@media (max-width:400px) {
+    
+    html{
+        font-size: 36%;
+    }
+
+}
+@media (max-width:350px) {
+    
+    html{
+        font-size: 31%;
+    }
+
+}
